@@ -4,12 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run generate-feed && next build && node scripts/copy-server-config.js",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "generate-feed": "tsx scripts/generate-static-feed.ts",
-    "export": "npm run build",
-    "copy-config": "node scripts/copy-server-config.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^14.0.0",
