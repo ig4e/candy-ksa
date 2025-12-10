@@ -1,0 +1,38 @@
+# ملفات لا يجب رفعها عند النشر
+
+# التطوير
+app/
+components/
+types/
+utils/
+scripts/
+*.md
+SETUP.md
+DEPLOYMENT.md
+README.md
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env.local
+.env.development
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build artifacts (إذا كنت تبني على السيرفر)
+.next/cache/
+

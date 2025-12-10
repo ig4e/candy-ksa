@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  text-align: right;
+  background: radial-gradient(circle at 20% 20%, #fff1f7 0, #fff1f7 25%, transparent 26%),
+    radial-gradient(circle at 80% 10%, #ffe5f2 0, #ffe5f2 22%, transparent 23%),
+    radial-gradient(circle at 10% 80%, #ffeaf5 0, #ffeaf5 18%, transparent 19%),
+    #fff8fb;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
